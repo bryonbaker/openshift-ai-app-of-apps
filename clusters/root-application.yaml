@@ -1,16 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: finsight-root-application
+  name: openshift-ai-3-rootapplication
   namespace: openshift-gitops
   annotations:
     argocd.argoproj.io/sync-wave: "0"
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/finsignt-demojam/mono-repo'
+    repoURL: 'https://github.com/bryonbaker/openshift-ai-app-of-apps'
     targetRevision: main
-    path: clusters/rosa
+    path: clusters/ocpai3
   destination:
     server: https://kubernetes.default.svc
     namespace: openshift-gitops
