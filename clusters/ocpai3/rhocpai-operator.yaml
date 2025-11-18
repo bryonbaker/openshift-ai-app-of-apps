@@ -13,7 +13,7 @@ spec:
   source:
     repoURL: 'https://github.com/bryonbaker/openshift-ai-app-of-apps'
     targetRevision: main
-    path: components/operators/ocpai/base
+    path: components/operators/ocpai_3_0/base
   destination:
     server: https://kubernetes.default.svc
     namespace: redhat-ods-operator
