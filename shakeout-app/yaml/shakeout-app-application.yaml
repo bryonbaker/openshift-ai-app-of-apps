@@ -8,7 +8,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: shakeout-app/overlays/rosa
-    repoURL: https://github.com/finsignt-demojam/mono-repo
+    repoURL: https://github.com/bryonbaker/openshift-ai-app-of-apps
     targetRevision: HEAD
   sources: []
   project: default

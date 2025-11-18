@@ -11,7 +11,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/finsignt-demojam/mono-repo'
+    repoURL: 'https://github.com/bryonbaker/openshift-ai-app-of-apps'
     targetRevision: main
     path: components/operators/serverless/base
   destination:

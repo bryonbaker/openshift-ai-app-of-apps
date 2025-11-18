@@ -8,7 +8,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "1"
 spec:
   sourceRepos:
-  - https://github.com/finsignt-demojam/mono-repo
+  - https://github.com/bryonbaker/openshift-ai-app-of-apps
   clusterResourceWhitelist:
   - group: '*'
     kind: '*'
