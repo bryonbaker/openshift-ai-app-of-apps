@@ -20,7 +20,7 @@ spec:
   syncPolicy:
     # Manual sync - changes require manual sync from Argo CD UI/CLI
     syncOptions:
-      # Let Argo create the target namespace for MinIO.
+      # Let Argo create the target namespace for Metal LB.
       - CreateNamespace=true
       # Optional but useful in day-2:
       - ApplyOutOfSyncOnly=true
