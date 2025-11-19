@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: minio
+  name: metal-lb-operator
   namespace: openshift-gitops
   labels:
     app.kubernetes.io/part-of: platform
