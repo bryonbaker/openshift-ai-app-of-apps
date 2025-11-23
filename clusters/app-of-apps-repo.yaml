@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  project: ZGVmYXVsdA==
+  type: Z2l0
+  url: aHR0cHM6Ly9naXRodWIuY29tL2JyeW9uYmFrZXIvb3BlbnNoaWZ0LWFpLWFwcC1vZi1hcHBzLmdpdA==
+kind: Secret
+metadata:
+  labels:
+    argocd.argoproj.io/secret-type: repository
+  name: app-of-apps-repo
+  namespace: openshift-gitops
+type: Opaque
+
