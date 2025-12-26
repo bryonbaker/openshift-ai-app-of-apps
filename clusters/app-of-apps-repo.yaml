@@ -7,7 +7,7 @@ kind: Secret
 metadata:
   labels:
     argocd.argoproj.io/secret-type: repository
-  name: app-of-apps-repo
+  name: ocpai-app-of-apps-repo
   namespace: openshift-gitops
 type: Opaque
 
