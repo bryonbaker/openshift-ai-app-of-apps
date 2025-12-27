@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - metal-lm.yaml
+  - metal-lb.yaml
   - ip-address-pool.yaml
   - l2-advertisement.yaml
